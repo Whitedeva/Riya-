@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-romantic: "Dancing Script", cursive;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+.romantic-title {
+  font-family: var(--font-romantic), cursive;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 182, 193, 0.3);
+  border-radius: 24px;
+}
+
+.special-card {
+  background: linear-gradient(135deg, #FFF0F5 0%, #FFD1DC 100%);
+  border-radius: 16px;
+  border: 1px solid #FFB6C1;
+}
+
+.hobby-pill {
+  background: #FFFFFF;
+  border: 1px solid #FFC0CB;
+  transition: all 0.3s ease;
+}

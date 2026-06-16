@@ -1,0 +1,6 @@
+{
+  "name": "Riyaaa Special",
+  "description": "An interactive, incredibly sweet digital love letter and proposal journey special built for Riyaaa with interactive eye-tracking 3D Teddy animations and customized AI-powered compliments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
